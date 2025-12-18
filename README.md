@@ -87,6 +87,10 @@
          └── detect/             
             └── train/
 
+ <p align="left">
+<img src="assets/floortest_v1.JPG")>
+</p>           
+
 ## 🛠️ Установка
 
 ```bash
