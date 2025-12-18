@@ -1,8 +1,7 @@
 # 🏗️ Система извлечения архитектурной геометрии из планов помещений
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-8.0+-red.svg)](https://ultralytics.com/)
-
 
 ## ✨ Возможности
 
@@ -14,18 +13,10 @@
 
 | *Исходное изображение* | *Обработанное изображение* |
 |-|-|
-| <p align="center"><img src="./samples/790.jpg" width="500"></p>| <p align="center"><img src="./output/visualizations/790.jpg" width="500"></p> |
-</p>
-<p align="center">
-<img src="./samples/790.jpg" width="400">
-<img src="./output/visualizations/790.jpg" width="400">
-<img src="./samples/3008.jpg" width="400">
-<img src="./output/visualizations/3008.jpg" width="400">
-<img src="./samples/6465.jpg" width="400">
-<img src="./output/visualizations/6465.jpg" width="400">
-<img src="./samples/6521.jpg" width="400">
-<img src="./output/visualizations/6521.jpg" width="400">
-</p>
+| <img src="./samples/790.jpg" width="500"> | <img src="./output/visualizations/790.jpg" width="500"> |
+| <img src="./samples/3008.jpg" width="500"> | <img src="./output/visualizations/3008.jpg" width="500"> |
+| <img src="./samples/6465.jpg" width="500"> | <img src="./output/visualizations/6465.jpg" width="500"> |
+| <img src="./samples/6521.jpg" width="500"> | <img src="./output/visualizations/6521.jpg" width="500"> |
 
 ## 📁 Структура проекта
 
