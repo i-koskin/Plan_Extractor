@@ -124,7 +124,9 @@ python main.py --visualize
 ```
 *При необходимости изменить входные и выходные папки откорректируйте значения соответствующих аргументов:*
 
---input, --output
+--input;
+
+--output.
 
 ```bash
 python main.py --input samples --output output --visualize
