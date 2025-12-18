@@ -14,13 +14,13 @@
 
 <p align="center">
 <img src="./samples/790.jpg" width="450">
-<img src="./output/visualizations/790.jpg" width="450">
-<img src="./samples/3008.jpg" width="450">
-<img src="./output/visualizations/3008.jpg" width="450">
-<img src="./samples/6465.jpg" width="450">
-<img src="./output/visualizations/6465.jpg" width="450">
-<img src="./samples/6521.jpg" width="450">
-<img src="./output/visualizations/6521.jpg" width="450">
+<img src="./output/visualizations/790.jpg" width="425">
+<img src="./samples/3008.jpg" width="425">
+<img src="./output/visualizations/3008.jpg" width="425">
+<img src="./samples/6465.jpg" width="425">
+<img src="./output/visualizations/6465.jpg" width="425">
+<img src="./samples/6521.jpg" width="425">
+<img src="./output/visualizations/6521.jpg" width="425">
 </p>
 
 ## 📁 Структура проекта
