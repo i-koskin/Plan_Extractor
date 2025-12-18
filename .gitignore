@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pyenv
+.python-version
+
+# YOLO model weights
+*.pt
+*.pth
+*.weights
+
+# Data files
+dataset_yolo/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.h5
+*.npy
+*.npz
+*.sh
+*.md
+*.pdf
+*.ipynb
+*.tar.gz
+*.csv
+*.zip
+
+# Logs and debugging information
+logs/
+*.log
+*.log.*
+
+debug/
+*.debug
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+
+
+# =================================
+# Exceptions
+# =================================
+
+!requirements.txt
+!runs/*
+!runs/detect/*
+!runs/detect/train/*
+!!runs/detect/train/weights/*
+!output/*
+!output/visualizations/*
