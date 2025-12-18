@@ -9,9 +9,9 @@ from adapters.visualizer import visualize_plan
 def main():
     parser = argparse.ArgumentParser(
         description="Extract structured plan from image")
-    parser.add_argument("--input", default="./samples",
+    parser.add_argument("--input", default="samples",
                         help="Path to input image or directory (default: ./samples)")
-    parser.add_argument("--output", default="./output",
+    parser.add_argument("--output", default="output",
                         help="Output directory for JSON and visualizations")
     parser.add_argument("--visualize", action="store_true",
                         help="Save visualized results (default: False)")

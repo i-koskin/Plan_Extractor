@@ -84,6 +84,10 @@ def get_yolo_model():
 
 
 def merge_wall_boxes_by_clusters(wall_boxes, eps=10):
+    """
+    Объединяет близкие bounding boxes стен в полилинии.
+    Предполагается, что стены — либо горизонтальные, либо вертикальные.
+    """
     if len(wall_boxes) == 0:
         return []
 
@@ -122,6 +126,7 @@ def detect_doors_walls_windows(image_path: str):
     # wall_lines = merge_wall_boxes_into_lines(wall_boxes, eps=25)
     # walls = [Wall(id=f"w{i}", points=line)
     #          for i, line in enumerate(wall_lines)]
+    # Объединяем боксы стен в полилинии
     merged_boxes = merge_wall_boxes_by_clusters(wall_boxes)
     for i, (x1, y1, x2, y2) in enumerate(merged_boxes):
         # Преобразуем боксы стен в полилинию (замкнутый прямоугольник)
