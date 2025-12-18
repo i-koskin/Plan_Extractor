@@ -12,6 +12,10 @@
 
 ## 📸 Примеры работы
 
+| *Исходное изображение* | *Обработанное изображение* |
+|-|-|
+| <p align="center"><img src="./samples/790.jpg" width="500"></p>| <p align="center"><img src="./output/visualizations/790.jpg" width="500"></p> |
+</p>
 <p align="center">
 <img src="./samples/790.jpg" width="400">
 <img src="./output/visualizations/790.jpg" width="400">
