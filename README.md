@@ -43,7 +43,7 @@
       ├── requirements.txt       # Зависимости проекта
       └── README.md              # Документация
 
-## 📄 Пример файла *.json с результатми обработки
+## 📄 Пример файла *.json с результатами обработки
 
 ```json
 {
@@ -86,6 +86,10 @@
       └── runs/                  
          └── detect/             
             └── train/
+
+ <p align="left">
+<img src="assets/floortest_v1.JPG")>
+</p>           
 
 ## 🛠️ Установка
 
