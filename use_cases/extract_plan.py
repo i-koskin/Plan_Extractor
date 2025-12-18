@@ -1,5 +1,5 @@
 from entities.plan import Plan
-from adapters.cv_wall_detector import detect_doors_walls_windows
+from adapters.cv_detector import detect_doors_walls_windows
 import os
 
 

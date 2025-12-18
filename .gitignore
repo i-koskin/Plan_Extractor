@@ -69,6 +69,8 @@ Desktop.ini
 !runs/*
 !runs/detect/*
 !runs/detect/train/*
-!!runs/detect/train/weights/*
+!runs/detect/train/weights/*
+!samples/*
 !output/*
 !output/visualizations/*
+!assets/*
