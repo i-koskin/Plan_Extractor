@@ -13,22 +13,22 @@
 ## 📸 Примеры работы
 
 <p align="center">
-<img src="./samples/790.jpg" width="400">
-<img src="./output/visualizations/790.jpg" width="400">
-<img src="./samples/3008.jpg" width="400">
-<img src="./output/visualizations/3008.jpg" width="400">
-<img src="./samples/6465.jpg" width="400">
-<img src="./output/visualizations/6465.jpg" width="400">
-<img src="./samples/6521.jpg" width="400">
-<img src="./output/visualizations/6521.jpg" width="400">
+<img src="./samples/790.jpg" width="500">
+<img src="./output/visualizations/790.jpg" width="500">
+<img src="./samples/3008.jpg" width="500">
+<img src="./output/visualizations/3008.jpg" width="500">
+<img src="./samples/6465.jpg" width="500">
+<img src="./output/visualizations/6465.jpg" width="500">
+<img src="./samples/6521.jpg" width="500">
+<img src="./output/visualizations/6521.jpg" width="500">
 </p>
 
 ## 📁 Структура проекта
 
       plan_extractor/
-      ├── entities/              # DTO: Wall, Room, Door, Plan
-      ├── use_cases/             # Бизнес-логика (оркестрация)
-      ├── interfaces/            # Абстракции (загрузка, вывод)
+      ├── entities/              # DTO: Wall, Door, Window, Plan
+      ├── use_cases/             # Подготовка данных
+      ├── interfaces/            # Загрузка, вывод данных
       ├── adapters/              # Реализация обработки и визуализации
       ├── runs/                  # Результаты обучения модели YOLO
       │  └── detect/             
@@ -122,7 +122,9 @@ pip install -r requirements.txt
 ```bash
 python main.py --visualize
 ```
-*При необходимости изменить входные и выходные папки измените значения соответсвующих аргументов:* --input, --output: 
+*При необходимости изменить входные и выходные папки откорректируйте значения соответствующих аргументов:*
+
+--input, --output
 
 ```bash
 python main.py --input samples --output output --visualize
