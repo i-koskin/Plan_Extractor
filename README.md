@@ -1,6 +1,6 @@
 # 🏗️ Система извлечения архитектурной геометрии из планов помещений
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-8.0+-red.svg)](https://ultralytics.com/)
 
 ## ✨ Возможности
